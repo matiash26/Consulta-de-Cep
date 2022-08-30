@@ -1,0 +1,36 @@
+.containerCep {
+    width: 100%;
+    margin-top: 20px;
+    background: #181A1B;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.containerCep h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+}
+.infoCep{
+    flex-direction: column;
+}
+.infoCep li {
+    color: rgba(128, 128, 128, 0.849);
+    list-style: none;
+}
+.description{
+    padding: 7px;
+    border: 1px solid rgba(194, 194, 194, 0.24);
+    height: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.info img {
+    width: 320px;
+    height: 213px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+}
+body{
+    background: #1B1F20;
+}
+#root{
+    /* font-family: 'Silkscreen', cursive; */
+    font-family: 'Mulish', sans-serif;
+    width: 850px;
+    margin: 5% auto;
+    color: white;
+}
