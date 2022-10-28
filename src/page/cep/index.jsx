@@ -7,7 +7,6 @@ export function Cep() {
   const [cepInput, setCepInput] = useState()
   const [cepList, setcepList] = useState([])
 
-  let id = 0
   const handleAddCep = async () => {
     const picture = `https://pt.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&piprop=original&titles=`
     const description = `https://pt.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=`
@@ -58,7 +57,7 @@ export function Cep() {
         </div>
       </header>
       {
-        cepList.map(cep => <Cepcard key={id++} data={cep}/>)
+        cepList.map((cep, i) => <Cepcard key={i} data={cep}/>)
       }
     </div>
   )
